@@ -1,0 +1,71 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding: 2vh;
+}
+
+
+.header h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 180px;
+    height: 150px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border: 1;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.product-card:hover{
+    scale: 102%;
+}
+
+.recipes{
+    margin-top: 10px;
+}
+
+h3{
+    text-align: center;
+    font-size: 32px;
+}
+
+a {
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.idk{
+    background-color: rgb(254, 253, 242);
+    margin: 10px;
+    height: 90vh;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
